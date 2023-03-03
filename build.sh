@@ -42,6 +42,7 @@ axt1800_sdk_get()
 mt7981_sdk_get()
 {
 	 git clone https://github.com/gl-inet-builder/openwrt-sdk-mt7981.git  openwrt-sdk
+	 echo src-git liuran001_packages https://github.com/liuran001/openwrt-packages >>${WORKDIR}/openwrt-sdk/feeds.conf.default
 }
 
 
